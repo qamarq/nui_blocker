@@ -49,4 +49,4 @@ I added webhook sending to discord and banning bet <3
 3. If you want to share the script, you must provide the link of this repository (https://github.com/QamarQ/nui_blocker/)
 
 
-*Original repo: https://github.com/fjuton/nui_devblock/*
+
