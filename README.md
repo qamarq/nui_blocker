@@ -5,7 +5,7 @@ Ten skrypt pozwoli ci skutecznie zablokować ludzi, którzy mają odpalną konso
 
 **[EN]**
 NUI Devtools is a development tool that facilitates the creation of scripts in HTML and JS. Unfortunately, many people use it for inappropriate purposes.
-This script will allow you to successfully block people who have the dev tools console. Regardless of whether in a browser at http: // localhost: 13172 / or in the FiveM window
+This script will allow you to successfully block people who have the dev tools console. Regardless of whether in a browser at http://localhost:13172/ or in the FiveM window
 
 
 
