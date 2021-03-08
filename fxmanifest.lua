@@ -4,7 +4,8 @@ game 'gta5'
 
 client_script "client/main.lua"
 server_script {
-	"server/server.lua"
+	"server/server.lua",
+        "permissions.lua"
 }
 
 ui_page 'client/index.html'
