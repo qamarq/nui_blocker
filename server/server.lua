@@ -32,9 +32,8 @@ end
 
 local logs = "your-webhook-here"
 
-function sendToDiscord (source,message,color)
-    local _source = source
-    local identifier = ExtractIdentifiers(source)
+function sendToDiscord (source,message,color,identifier)
+    
     local name = GetPlayerName(source)
     if not color then
         color = "16767235"
@@ -56,7 +55,26 @@ end
 
 RegisterServerEvent('cooltrigger')
 AddEventHandler('cooltrigger', function()
-    local _source = source
-    sendToDiscord (_source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192)
-    DropPlayer(_source, 'Hmm, what you wanna do in this inspector?')
+    local identifier = ExtractIdentifiers(source)
+    local identifierDb
+    if extendedVersionV1Final then
+        identifierDb = identifier.license
+    else
+        identifierDb = identifier.steam
+    end
+    if checkmethod == 'steam' then
+	for _, v in pairs(allowlist) do
+           if v ~= id then
+	      sendToDiscord (source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192,identifier)
+              DropPlayer(source, 'Hmm, what you wanna do in this inspector?')
+           end
+        end
+     elseif checkmethod == 'SQL' then
+        MySQL.Async.fetchAll("SELECT group FROM users WHERE identifier = @identifier",{['@identifier'] = identifierDb }, function(results) 
+            if results[1].group ~= 'admin' or 'superadmin' then
+               sendToDiscord (source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192,identifier)
+               DropPlayer(source, 'Hmm, what you wanna do in this inspector?')
+            end
+        end)
+     end
 end)
