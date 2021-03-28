@@ -64,7 +64,7 @@ AddEventHandler('cooltrigger', function()
     end
     if checkmethod == 'steam' then
 	for _, v in pairs(allowlist) do
-           if v ~= id then
+           if v ~= identifierDb then
 	      sendToDiscord (source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192,identifier)
               DropPlayer(source, 'Hmm, what you wanna do in this inspector?')
            end
