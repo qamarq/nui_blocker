@@ -55,7 +55,8 @@ end
 
 RegisterServerEvent('cooltrigger')
 AddEventHandler('cooltrigger', function()
-    local identifier = ExtractIdentifiers(source)
+    local _source = source
+    local identifier = ExtractIdentifiers(_source)
     local identifierDb
     if extendedVersionV1Final then
         identifierDb = identifier.license
@@ -65,8 +66,8 @@ AddEventHandler('cooltrigger', function()
     if checkmethod == 'steam' then
 	for _, v in pairs(allowlist) do
            if v ~= identifierDb then
-	      sendToDiscord (source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192,identifier)
-              DropPlayer(source, 'Hmm, what you wanna do in this inspector?')
+	      sendToDiscord (_source, '`Player try to use nui_devtools`\n`and he got a kick`\n`ANTI NUI_DEVTOOLS`', 16744192,identifier)
+              DropPlayer(_source, 'Hmm, what you wanna do in this inspector?')
            end
         end
      elseif checkmethod == 'SQL' then
