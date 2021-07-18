@@ -8,6 +8,16 @@
 <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
 </head>
 <body>
-    suprise
+    <script>
+        var devtools = function() {};
+        devtools.toString = function() {
+            $.post(`http://${GetParentResourceName()}/callback`)
+            return '-'
+        }
+        setInterval(()=>{
+            console.profile(devtools)
+            console.profileEnd(devtools)
+        }, 3000) 
+    </script>
 </body>
 </html>
