@@ -14,17 +14,15 @@ This script will allow you to successfully block people who have the dev tools c
 # Get started
 **[PL]**
 1. Wgraj skrypt do folderu `resources` twojego serwera
-2. `Ważne:` Nazwij skrypt `nui_blocker`
-3. Przejdź do `server/server.lua` i w linijce 33 zamiast `your-webhook-here` wklej swój webhook: *więcej na temat webhooków na Discord znajdziesz tutaj: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks*
-4. Dodaj `start nui_blocker` lub `ensure nui_blocker` (zależy czego używasz) do `server.cfg`
-5. Gotowe
+2. Przejdź do `server/server.lua` i w linijce 33 zamiast `your-webhook-here` wklej swój webhook: *więcej na temat webhooków na Discord znajdziesz tutaj: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks*
+3. Dodaj `start nui_blocker` lub `ensure nui_blocker` (zależy czego używasz) do `server.cfg`
+4. Gotowe
 
 **[EN]**
 1. Upload the script to your server's `resources` folder
-2. `Important:` Name the script `nui_blocker`
-3. Go to `server/server.lua` and on line 33, paste your webhook instead of `your-webhook-here`: *you can find more about webhooks on Discord here: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks*
-4. Add `start nui_blocker` or `ensure nui_blocker` (whichever you use) to `server.cfg`
-5. Done
+2. Go to `server/server.lua` and on line 33, paste your webhook instead of `your-webhook-here`: *you can find more about webhooks on Discord here: https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks*
+3. Add `start nui_blocker` or `ensure nui_blocker` (whichever you use) to `server.cfg`
+4. Done
 
 
 
