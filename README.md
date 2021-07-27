@@ -1,6 +1,6 @@
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
 
-# Nui_blocker - QamarQ
+# nui_blocker - qamarq
 **[PL]**
 NUI Devtools to narzędzie developerskie ułatwiające robienie skryptów w HTML i JS. Nie stety wielu ludzi wykorzystuje to do nie właściwych celów.
 Ten skrypt pozwoli ci skutecznie zablokować ludzi, którzy mają odpalną konsolę dev tools. Obojętnie czy w przeglądarce pod adresem http://localhost:13172/ czy w oknie FiveM
