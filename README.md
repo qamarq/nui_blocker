@@ -29,7 +29,8 @@ This script will allow you to successfully block people who have the dev tools c
 # Authors
 
 qamarq#9999
-
+[![Paypal Doante](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/KMarczak123)
+[![Discord](https://discordapp.com/api/guilds/772941356423315527/embed.png)](https://discord.gg/buSQU2Bjxc)
 
 
 # LICENSE
