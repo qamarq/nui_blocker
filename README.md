@@ -1,4 +1,4 @@
-# Nui_blocker - QamarQ & vjuton
+# Nui_blocker - QamarQ
 **[PL]**
 NUI Devtools to narzędzie developerskie ułatwiające robienie skryptów w HTML i JS. Nie stety wielu ludzi wykorzystuje to do nie właściwych celów.
 Ten skrypt pozwoli ci skutecznie zablokować ludzi, którzy mają odpalną konsolę dev tools. Obojętnie czy w przeglądarce pod adresem http://localhost:13172/ czy w oknie FiveM
@@ -27,13 +27,8 @@ This script will allow you to successfully block people who have the dev tools c
 
 
 # Authors
-**[PL]** 
-Ten skrypt powstał na bazie skryptu fjuton'a (https://github.com/fjuton/nui_devblock/). 
-Dodałem wysyłanie webhooka na discorda i postawkę do banowania <3
 
-**[EN]**
-This script is based on a fjuton script (https://github.com/fjuton/nui_devblock/). 
-I added webhook sending to discord and banning bet <3
+qamarq#9999
 
 
 
