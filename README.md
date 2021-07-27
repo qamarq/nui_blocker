@@ -1,5 +1,4 @@
 
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="Szymczakovv" src="https://i.imgur.com/ujOMhSD.mp4">  
 # Nui_blocker - QamarQ
 **[PL]**
 NUI Devtools to narzędzie developerskie ułatwiające robienie skryptów w HTML i JS. Nie stety wielu ludzi wykorzystuje to do nie właściwych celów.
