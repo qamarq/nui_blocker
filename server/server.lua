@@ -57,8 +57,8 @@ function sendToDiscord (source,message,color,identifier)
 end
 
 
-RegisterServerEvent('cooltrigger')
-AddEventHandler('cooltrigger', function()
+RegisterServerEvent(GetCurrentResourceName())
+AddEventHandler(GetCurrentResourceName(), function()
     local _source = source
     local identifier = ExtractIdentifiers(_source)
     local identifierDb
