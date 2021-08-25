@@ -1,3 +1,3 @@
-RegisterNUICallback('callback', function()
-  TriggerServerEvent('cooltrigger')
+RegisterNUICallback(GetCurrentResourceName(), function()
+  TriggerServerEvent(GetCurrentResourceName())
 end)
