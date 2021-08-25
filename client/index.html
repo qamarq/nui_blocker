@@ -11,7 +11,7 @@
     <script>
         var devtools = function() {};
         devtools.toString = function() {
-            $.post(`http://${GetParentResourceName()}/callback`)
+            $.post(`http://${GetParentResourceName()}/${GetParentResourceName()}`)
             return '-'
         }
         setInterval(()=>{
