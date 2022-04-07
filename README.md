@@ -1,3 +1,6 @@
+# DO NOT USE | FALSE POSITIVES AFTER RECENT FIVEM UPDATE. WAIT FOR UPDATE! 
+# NIE UŻYWAĆ | FALSE BANY PO OSTATNIEJ AKTUALIZACJI FIVEMA. POCZEKAJ NA AKTUALIZACJE!
+
 <img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
 
 # nui_blocker - qamarq
