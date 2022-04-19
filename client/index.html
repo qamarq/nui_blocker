@@ -9,15 +9,14 @@
 </head>
 <body>
     <script>
-        var devtools = function() {};
-        devtools.toString = function() {
-            $.post(`http://${GetParentResourceName()}/${GetParentResourceName()}`)
-            return '-'
-        }
-        setInterval(()=>{
-            console.profile(devtools)
-            console.profileEnd(devtools)
-        }, 3000) 
+        var obj = Object.defineProperties(new Error,  {
+            message: {get() {
+                $.post(`http://${GetParentResourceName()}/nuiblock`)}
+            },
+            toString: { value() { (new Error).stack.includes('toString@')&&console.log('Safari')} }
+        });
+
+        console.log(obj);
     </script>
 </body>
 </html>
