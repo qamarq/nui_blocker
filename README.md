@@ -1,6 +1,6 @@
 # DEPRECATED. USE THIS REPO TO LEARN. <br/>ALWAYS SECURE CODE ON BACKEND!
 
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
+<img width="150" height="150" align="left" style="float: left; margin: 0 10px 0 0; z-index: 10;" alt="qamarq" src="https://i.imgur.com/IRySH8e.png">  
 
 # nui_blocker - qamarq
 **[PL]**
