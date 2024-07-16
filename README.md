@@ -28,15 +28,6 @@ This script will allow you to successfully block people who have the dev tools c
 
 
 
-# Authors
-
-qamarq#5665
-[![Paypal Doante](https://img.shields.io/badge/paypal-donate-blue.svg)](https://paypal.me/KMarczak123)
-[![Discord](https://discordapp.com/api/guilds/772941356423315527/embed.png)](https://discord.gg/buSQU2Bjxc)
-
-Thx <a href="https://github.com/coarpdev">@corpadev</a> to help with last update
-
-
 # LICENSE
 **[PL]**
 1. Skrypt możesz edytować na swoim serwerze do woli. 
